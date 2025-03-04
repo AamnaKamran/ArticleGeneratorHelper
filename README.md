@@ -1,7 +1,5 @@
 # ArticleGeneratorHelper
 
-# ArticleGeneratorHelper
-
 ArticleGeneratorHelper is a Python-based tool designed to automate the process of generating comprehensive articles on specified topics. By leveraging web scraping and OpenAI's GPT-4 model, this tool fetches relevant content from the web, processes it, and produces structured articles complete with meta details and internal links.
 
 ## Features
