@@ -2,6 +2,10 @@
 
 ArticleGeneratorHelper is a Python-based tool designed to automate the process of generating comprehensive articles on specified topics. By leveraging web scraping and OpenAI's GPT-4 model, this tool fetches relevant content from the web, processes it, and produces structured articles complete with meta details and internal links.
 
+(That's the ChatGPT version of things. Let me explain in more detail (for those interested ofc). Let's be real, (almost) all of us take help from AI chatbots to make our work easier but sometimes their use can make our work more tedious. So this is an attempt to reduce the copying and pasting of content from LLM tools and create a more streamlined process that will help save your time as well, in tasks like giving gpt separate prompt for article title ideas, meta descriptions, what sections to include. Another feature is that it can also pick up content from top trending websites on the selected topic and then generate an outline based on that.. so you already have a headstart. 
+
+Since GPT APIs are paid the article generator feature of this code is not well tested. However, I have noticed a significant improvement in the article generated when your give an outline to the bot. The idea behind the repetitive calls in the article generattion function for each section is the get detailed content.. because AI chatbots don't do well with word limits. Ofc, the generated content still requires manual editing.)
+
 ## Features
 
 - **Web Content Scraping**: Fetches and processes content from top Google search results related to a given topic.
